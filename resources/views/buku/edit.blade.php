@@ -42,7 +42,21 @@
     </div>
     <div class=" form-group">
         <label for="image_url">Gambar</label>
-        <input type="file" id="image_url" name="image_url" class="form-control">
+        <input onchange="editImage('.show-image',this.files[0])" type="file" id="image_url" name="image_url"
+            class="form-control">
+        <img src="{{ asset('storage/'.$book->image_url) }}" class="img-thumbnail first-img mt-2 mb-3" alt="" width="150"
+            height="150">
+        <img src="" class="img-thumbnail show-image mt-2 mb-3" alt="" width="150" height="150" style="display: none">
     </div>
     <button class="btn btn-primary" type="submit"><i class="fas fa-save"></i> Simpan</button>
 </form>
+
+
+@push('script')
+<script>
+    function editImage(target,img){
+        $(target).attr('src',window.URL.createObjectURL(img)).show();
+        $('.first-image').addClass('d-none')
+   }
+</script>
+@endpush

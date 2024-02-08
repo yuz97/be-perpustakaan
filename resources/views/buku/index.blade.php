@@ -306,5 +306,13 @@
                 })
             })
     })
+
+
+
+    function editImage(target,img){
+        $(target).attr('src',window.URL.createObjectURL(img)).show();
+        $('.first-img').addClass('d-none')
+    }
+
 </script>
 @endpush

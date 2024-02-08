@@ -18,7 +18,7 @@ class BukuSeeder extends Seeder
             [
                 'title' => 'naruto shippude',
                 'description' => 'adalah sebuah serial manga karya Masashi Kishimoto yang diadaptasi menjadi serial anime. Manga Naruto bercerita seputar kehidupan tokoh utamanya, Naruto Uzumaki, seorang ninja yang hiperaktif, periang, dan ambisius yang ingin mewujudkan keinginannya untuk mendapatkan gelar Hokage, pemimpin dan ninja terkuat di desanya. ',
-                'image_url' => 'naruto.jpg',
+                'image_url' => 'books/naruto.jpg',
                 'release_year' => 2020,
                 'price' => '200.000',
                 'total_page' => 205,
@@ -29,7 +29,7 @@ class BukuSeeder extends Seeder
             [
                 'title' => 'One piece',
                 'description' => 'One Piece adalah sebuah seri manga Jepang yang ditulis dan diilustrasikan oleh Eiichiro Oda. Manga ini telah dimuat di majalah Weekly Shōnen Jump milik Shueisha sejak tanggal 22 Juli 1997, dan telah dibundel menjadi 105 volume tankōbon hingga Maret 2023',
-                'image_url' => 'onepiece.jpg',
+                'image_url' => 'books/onepiece.jpg',
                 'release_year' => 2020,
                 'price' => '800.000',
                 'total_page' => 300,

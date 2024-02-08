@@ -37,7 +37,9 @@
     </div>
     <div class=" form-group">
         <label for="image_url">Gambar</label>
-        <input type="file" id="image_url" name="image_url" value="{{ old('name')}}" class="form-control">
+        <input onchange="showImage('.show-image',this.files[0])" type="file" id="image_url" name="image_url"
+            value="{{ old('name')}}" class="form-control">
+        <img src="" alt="" class="show-image mt-2 mb-3 img-thumbnail" width="150" height="250" style="display: none">
     </div>
     <button class="btn btn-primary" type="submit"><i class="fas fa-save"></i> Simpan</button>
 </form>

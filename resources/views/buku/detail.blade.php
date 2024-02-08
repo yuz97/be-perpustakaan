@@ -1,7 +1,7 @@
 <div class="card mb-3" style="max-width: 540px;">
     <div class="row no-gutters">
         <div class="col-md-4">
-            <img src="{{ asset('storage/books/'.$book->image_url) }}" alt="{{ $book->title }}" width="150" height="250"
+            <img src="{{ asset('storage/'.$book->image_url) }}" alt="{{ $book->title }}" width="150" height="250"
                 class="thumbnail">
         </div>
         <div class="col-md-8">

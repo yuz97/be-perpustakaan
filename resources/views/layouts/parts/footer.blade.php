@@ -59,6 +59,12 @@
 <script src="{{ asset('/sbadmin/js/demo/chart-area-demo.js') }}"></script>
 <script src="{{ asset('/sbadmin/js/demo/chart-pie-demo.js') }}"></script>
 
+<script>
+    function showImage(target,img){
+        $(target).attr('src',window.URL.createObjectURL(img)).show();
+    }
+</script>
+
 </body>
 
 </html>
