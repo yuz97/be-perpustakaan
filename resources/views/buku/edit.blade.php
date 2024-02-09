@@ -51,12 +51,3 @@
     <button class="btn btn-primary" type="submit"><i class="fas fa-save"></i> Simpan</button>
 </form>
 
-
-@push('script')
-<script>
-    function editImage(target,img){
-        $(target).attr('src',window.URL.createObjectURL(img)).show();
-        $('.first-image').addClass('d-none')
-   }
-</script>
-@endpush
