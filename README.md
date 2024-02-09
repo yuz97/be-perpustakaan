@@ -19,6 +19,7 @@ A brief description of what this project does and who it's for
 - Lakukan `composer install`
 - Lakukan `php artisan key:generate` dan copykan ke `key generate` di bagian `.env`  
 - Lakukan `php artisan storage:link`
+- Copykan/Pindahkan folder books kedalam storage yang terdapat didalam public folder
 - jalankan ```php artisan migrate``` 
 - kemudian ```php artisan db:seed```
 
