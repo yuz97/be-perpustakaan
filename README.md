@@ -3,7 +3,6 @@
 </p>
 
  <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
@@ -40,7 +39,7 @@ A brief description of what this project does and who it's for
     password : 'password'
 ```
 <p align="center">
-  <img src="../../public/demo.png" alt="" width="100%" height="70%">
+  <img src="https://github.com/yuz97/be-perpustakaan/blob/main/public/demo.png" alt="" width="100%" height="50%">
 </p>
 
 ## 🔗 Links
