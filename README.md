@@ -35,11 +35,12 @@ A brief description of what this project does and who it's for
 
 ##Demo Aplikasi:
 - Login  
+```
     email    : 'admin@gmail.com'
     password : 'password'
-
+```
 <p align="center">
-  <img src="./demo.png" alt="" width="100%" height="70%">
+  <img src="../../public/demo.png" alt="" width="100%" height="70%">
 </p>
 
 ## 🔗 Links
