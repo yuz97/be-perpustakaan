@@ -20,6 +20,9 @@ A brief description of what this project does and who it's for
 - Lakukan `composer install`
 - Lakukan `php artisan key:generate` dan copykan ke `key generate` di bagian `.env`  
 - Lakukan `php artisan storage:link`
+- jalankan ```php artisan migrate``` 
+- kemudian ```php artisan db:seed```
+
 
 ## Feature
 - Authentikasi dengan laravel-fortify
@@ -30,6 +33,14 @@ A brief description of what this project does and who it's for
 - feature Spatie (Role Permission)
 - feature Sanctum untuk SPA 
 
+##Demo Aplikasi:
+- Login  
+    email    : 'admin@gmail.com'
+    password : 'password'
+
+<p align="center">
+  <img src="./demo.png" alt="" width="100%" height="70%">
+</p>
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://yuz97.github.io/)
