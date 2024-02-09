@@ -33,7 +33,7 @@ A brief description of what this project does and who it's for
 - feature Spatie (Role Permission)
 - feature Sanctum untuk SPA 
 
-##Demo Aplikasi:
+## Demo Aplikasi:
 - Login  
 ```
     email    : 'admin@gmail.com'
